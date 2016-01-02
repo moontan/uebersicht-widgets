@@ -1,6 +1,23 @@
+###
+    sprichwortrekombinator.widget for Übersicht
+    https://github.com/moontan/uebersicht-widgets
+    This work is licensed under the Creative Commons
+    Attribution-NonCommercial-ShareAlike 4.0 International
+    License. To view a copy of this license, visit
+    http://creativecommons.org/licenses/by-nc-sa/4.0/.
+###
+
 command: 'sprichwortrekombinator.widget/getproverb.sh e'
 
+# refresh every 20 minutes
 refreshFrequency: 1200000
+
+###
+    Get the font used in the section below from http://ligafaktur.de/LTFetteGotisch.zip,
+    unzip it and place it in the widget's directory. Otherwise just enjoy the view with your
+    OS's standard font or change it to your liking. The above website offers many good-looking
+    fonts for download.
+###
 
 style: """
   @font-face {
@@ -18,12 +35,12 @@ style: """
     border: 1px solid #999
     line-height: 42px
     text-align: left
-    text-shadow: 0 0 5px rgba(#BDF, 0.8)
+    text-shadow: 0 0 5px rgba(#36F, 0.6)
     background: rgba(#FEB, 0.7)
     font-size: 30px
     font-weight: 100
     padding: 10px 20px 35px 20px
-    color: #63D
+    color: #42A
 
     &:after
       content: '(Sprichwortrekombinator)'
