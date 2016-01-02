@@ -8,6 +8,6 @@ If you prefer the German version over the default English output simply invoke t
 command: 'sprichwortrekombinator.widget/getproverb.sh d'
 ```
 ### Font
-Get the open type font from [http://ligafaktur.de/LTFetteGotisch.zip](http://ligafaktur.de/LTFetteGotisch.zip) and place it in the widget’s directory. Or pick any other font you are fond of (that particular site provides heaps of [more beautiful type](http://ligafaktur.de/Schriften.html) to pick from if needed).
+Get the open type font from [http://ligafaktur.de/LTFetteGotisch.zip](http://ligafaktur.de/LTFetteGotisch.zip), unzip it and place it in the widget’s directory. Or pick any other font you are fond of (that particular site provides heaps of [more beautiful type](http://ligafaktur.de/Schriften.html) to pick from if needed).
 ### Minor Æsthetical Blemish
 I actually wanted to include another vertically centered container for the text inside the main frame, so the gap between the shorter proverbs and the signature at the bottom is smaller. Since I'm not really a CSS guru, let alone a coffee script adept, I appreciate any advice on how to accomplish this.
