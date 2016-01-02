@@ -2,10 +2,12 @@
 # get proverb combined randomly from two traditional proverbs
 # in German [1|d[e]] or English [2|e[n]]
 # (and pass it to Übersicht widget)
-#   (This work is licensed under the Creative Commons
-#   Attribution-NonCommercial-ShareAlike 4.0 International
-#   License. To view a copy of this license, visit
-#   http://creativecommons.org/licenses/by-nc-sa/4.0/)
+#
+#   This work was released into the public domain
+#   by moontan, identified as Axel Kirch, and is
+#   free of known copyright restrictions.
+#   To view a copy of this license, visit
+#   http://creativecommons.org/publicdomain/mark/1.0/
 
 LANG=${1:-'d'}			# set language parametre to German if not passed
 	case "$LANG" in		# determine URL:

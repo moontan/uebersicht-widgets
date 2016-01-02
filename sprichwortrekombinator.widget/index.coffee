@@ -1,10 +1,11 @@
 ###
     sprichwortrekombinator.widget for Übersicht
     https://github.com/moontan/uebersicht-widgets
-    This work is licensed under the Creative Commons
-    Attribution-NonCommercial-ShareAlike 4.0 International
-    License. To view a copy of this license, visit
-    http://creativecommons.org/licenses/by-nc-sa/4.0/.
+    This work was released into the public domain
+    by moontan, identified as Axel Kirch, and is
+    free of known copyright restrictions.
+    To view a copy of this license, visit
+    http://creativecommons.org/publicdomain/mark/1.0/
 ###
 
 command: 'sprichwortrekombinator.widget/getproverb.sh e'
