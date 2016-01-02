@@ -1,15 +1,15 @@
-command: 'sprichwortrekombinator.widget/getproverb.sh d'
+command: 'sprichwortrekombinator.widget/getproverb.sh e'
 
 refreshFrequency: 1200000
 
 style: """
   @font-face {
-      font-family: LTEnglischGravurU1S;
-      src: url('sprichwortrekombinator.widget/LTEnglischGravurU1S.otf') format('opentype');
+      font-family: LTFetteGotischU1S;
+      src: url('sprichwortrekombinator.widget/LTFetteGotischU1S.otf') format('opentype');
   }
   top: 300px
   left: 150px
-  font-family: LTEnglischGravurU1S, Calibri, Helvetica
+  font-family: LTFetteGotischU1S, Calibri, Helvetica
 
   div
     display: block
@@ -18,7 +18,7 @@ style: """
     border: 1px solid #999
     line-height: 42px
     text-align: left
-    text-shadow: 0 0 5px rgba(#39F, 0.4)
+    text-shadow: 0 0 5px rgba(#BDF, 0.8)
     background: rgba(#FEB, 0.7)
     font-size: 30px
     font-weight: 100
