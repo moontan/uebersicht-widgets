@@ -8,7 +8,7 @@
     http://creativecommons.org/publicdomain/mark/1.0/
 ###
 
-command: 'sprichwortrekombinator.widget/getproverb.sh e'
+command: 'sprichwortrekombinator.widget/getproverb.sh e | tee -a sprichwortrekombinator.widget/proverb-history.txt'
 
 # refresh every 20 minutes
 refreshFrequency: 1200000
