@@ -29,7 +29,8 @@ style: """
   left: 150px
   font-family: LTFetteGotischU1S, Calibri, Helvetica
 
-  div
+  .container
+    position: relative;
     display: block
     width: 300px
     height: 180px
@@ -42,6 +43,11 @@ style: """
     font-weight: 100
     padding: 10px 20px 35px 20px
     color: #42A
+
+    .proverb
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
 
     &:after
       content: '(Sprichwortrekombinator)'
@@ -56,7 +62,9 @@ style: """
 """
 
 render: -> """
-  <div class='proverb'></div>
+  <div class="container">
+    <div class='proverb'></div>
+  </div>
 """
 
 update: (output, domEl) ->
